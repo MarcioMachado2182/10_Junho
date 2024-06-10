@@ -26,3 +26,4 @@ while num != num_sorteado:
 
 print ('Parabéns! Você adivinhou o numero em', tentativas,  'tentativas.')
 print('teste')
+"""outra alteracao"""
