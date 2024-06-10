@@ -1,0 +1,11 @@
+nomes = ["marcio", "ana", "jackson", "barbara"]
+print (nomes)
+residentes_novos = nomes.copy()
+residentes_novos.insert(4, "bruna")
+"""
+print(nomes)
+print(residentes_novos)
+"""
+
+for moradores in residentes_novos:
+    print (moradores)

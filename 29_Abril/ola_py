@@ -1,0 +1,18 @@
+entrada = input('digite "OLÁ" para seguir ou "ENTER" para encerrar: ')
+
+def ola_infinto():
+    global entrada
+
+    if entrada == "ola" or entrada == "Ola":
+        entrada = input('digite "OLÁ" para seguir ou "ENTER" para encerrar: ')
+        #print(entrada)
+        ola_infinto()
+        
+    else:
+        print('voce apertou "ENTER"\ntchau')
+        print(entrada)
+
+ola_infinto()
+
+
+

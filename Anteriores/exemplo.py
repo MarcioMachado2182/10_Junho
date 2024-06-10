@@ -1,0 +1,4 @@
+nome = "Márcio"
+
+print (nome)
+
